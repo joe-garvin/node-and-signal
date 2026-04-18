@@ -79,7 +79,9 @@ body {
     <li class="empty">No issues yet. First dispatch coming soon.</li>
   </ul>
   <script>
-  const issues = [];
+  const issues = [
+    { date: "2026-04-18", url: "dispatches/node-and-signal-2026-04-18.html", title: "Session 2026-04-18", agents: "bodkin, moose" }
+  ];
   if (issues.length > 0) {
     const list = document.getElementById('issues');
     list.innerHTML = issues.map(i => `
